@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="pg1">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><img id="imh5" src="img/2.png" alt=""></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input class="inpp" placeholder="   Name" type="text"> <br>
+            <input class="inpp" placeholder="   Email" type="text">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button id="bprm" type="button" class="btn btn-primary">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fstr">
+      <img id="logo" src="img/47.png" alt="">
+      <p id="ftx0">Good Living Better Live </p>
+      <p id="ftx2">Your Dreams <span id="ftx1">Easily Here</span></p>
+      <div class="ft">
+        <p id="ftx3">Everything you need about finding your place to live will be here, where it will be easier for you. Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+      </div>
+      <form id="frm1" action="">
+        <img id="pnt" src="img/@.png" alt="">
+        <input id="inp1" type="text" placeholder="   Search for the location you want!">
+        <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Find the property by location"  id="btn2">Search ></button>
+      </form>
+      <p id="ftx4">Our Partnership </p>
+      <div class="brnd">
+        <img id="im7" src="img/7.png" alt="">
+        <img id="im7" src="img/8.png" alt="">
+        <img id="im7" src="img/9.png" alt="">
+        <img id="im7" src="img/10.png" alt="">
+      </div>
+    </div>
+    
+    <div class="fst">
+      <div class="fbg1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li  class="nav-item">
+                  <a id="li1" class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li  class="nav-item dropdown">
+                  <a id="li2" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Property
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#myTabContent">Featured House</a></li>
+                    <li><a class="dropdown-item" href="#ben">Benefits</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#hh1">Manager</a></li>
+                  </ul>
+                </li>
+                <li  class="nav-item dropdown">
+                  <a id="li3" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Property
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#log23">Tips And Trick</a></li>
+                    <li><a class="dropdown-item" href="#sub">Newsletter</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="fbg2">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn1">Sign Up!</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="msg">
+    <img id="msg1" src="img/11.png" alt="">
+    <img id="msg2" src="img/12.png" alt="">
+    <img id="msg3" src="img/13.png" alt="">
+  </div>
+
+  <div class="pg2">
+    <div class="top2">
+      <div class="toptx">
+        <div>
+          <span id="pg2tx">Our Recommendation</span>
+          <h1 id="pg2tx1">Featured House</h1>
+        </div>          
+      </div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><img id="ic" src="img/14.png" alt=""> House</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><img id="ic" src="img/15.png" alt=""> Villa</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><img id="ic" src="img/16.png" alt=""> Apartment</button>
+        </li>
+      </ul>
+      <div class="crslbtns">
+        <button id="crslbtn1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="crslbtn2" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </div>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div id="carusel1" class="carousel-item active">
+              <img id="crsl1" src="img/17.png" class="d-block w-100" alt="...">
+              <div class="owners">
+                <div class="own1">
+                  <h1>Woodlandside</h1>
+                  <p id="p20k">$ 20.000.000</p>
+                  <div class="chel1">
+                    <img id="phot0" src="img/18.png" alt="">
+                    <div class="name1">
+                      <p id="Nname">Robert Fox</p>
+                      <p id="Dr">Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="own2">
+                  <h1>The Old Lighthouse</h1>
+                  <p id="p20k">$ 44.000.000</p>
+                  <div class="chel2">
+                    <img id="phot0" src="img/19.png" alt="">
+                    <div class="name2">
+                      <p id="Nname">Ronald Richards</p>
+                      <p id="Dr">Santa Ana, Illinois</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="own3">
+                  <h1>Cosmo's House</h1>
+                  <p id="p20k">$ 22.000.000</p>
+                  <div class="chel3">
+                    <img id="phot0" src="img/20.png" alt="">
+                    <div class="name3">
+                      <p id="Nname">Jenny Wilson</p>
+                      <p id="Dr">Preston Rd. Inglewood, Maine 98380</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="carusel1" class="carousel-item">
+              <img id="crsl1" src="img/17.png" class="d-block w-100" alt="...">
+            </div>
+            <div id="carusel1" class="carousel-item">
+              <img id="crsl1" src="img/17.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <img id="tabsld2" src="img/34.png" alt="">
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <img id="tabsld2" src="img/35.png" alt="">
+      </div>
+    </div>
+    
+  </div>
+  <div class="pg3">
+    <div class="subpg3">
+      <div class="benefit">
+        <p id="ben">Benefit</p>
+        <p id="ben1">Benefit You Get When <br> Using Our Services</p>
+        <p id="a600">600+</p>
+        <p id="b600">Home Furniture throughout Indonesia</p>
+        <p id="a600">135+</p>
+        <p id="b600">Staff ready to help you</p>
+      </div>
+      <div class="desk">
+        <div class="info">
+          <img id="log23" src="img/23.png" alt="">
+          <div class="subinfo">
+            <p id="best" class="best">Best Quality</p>
+            <p class="all">All of our funiture uses the best <br>materials and choices for our customers.</p>
+          </div>
+        </div>
+        <div class="info">
+          <img id="log24" src="img/24.png" alt="">
+          <div class="subinfo">
+            <p id="best1" class="best">Free Shipping</p>
+            <p class="all">All of our funiture uses the best <br>materials and choices for our customers.</p>
+          </div>
+        </div>
+        <div class="info">
+          <img id="log24" src="img/25.png" alt="">
+          <div class="subinfo">
+            <p id="best1" class="best">Space Customization</p>
+            <p class="all">All of our funiture uses the best <br>materials and choices for our customers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pg4">
+    <div class="pg4sub">
+      <div class="sel">
+        <p id="hh1">Ready to Sell!</p>
+        <p id="hh2">Let’s Tour And See Our House!</p>
+        <p id="hh3">Houses recommended by our partners that have been <br> curated to become the home of your dreams!</p>
+        <p id="hh4">House Detail</p>
+        <div class="icns">
+          <img id="icns1" src="img/28.png" alt="">
+          <p id="icnt">4 Bedrooms</p>
+          <img id="icns2" src="img/29.png" alt="">
+          <p id="icnt">2 Bathrooms</p>
+        </div>
+        <div class="icns">
+          <img id="icns3" src="img/30.png" alt="">
+          <p id="icnt">1 Carport</p>
+          <img id="icns4" src="img/31.png" alt="">
+          <p id="icnt">2 Floors</p>
+        </div>
+        <svg width="440" height="2" viewBox="0 0 440 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="440" height="2" fill="#F0F3FD"/>
+          </svg>
+        <div class="dianne">
+          <img id="avt" src="img/32.png" alt="">
+          <div class="naame">
+            <p id="nme1">Dianne Russell</p>
+            <p id="nme2">Manager Director</p>
+          </div>
+          <button id="cntct" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="You can contact our manager">
+            <div id="dbtn">
+              <img id="phn" src="img/33.png" alt="">            
+              <p id="nwcn">Contact Now</p>
+            </div>
+            
+          </button>
+        </div>          
+      </div>
+      <img id="home" src="img/27.png" alt="">
+    </div>
+  </div>
+  <div class="pg5">
+    <img src="img/26.png" alt="">
+    <p id="p51">See Our Review</p>
+    <p id="p52">What Our User Say About Us</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button id="sldbtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button id="sldbtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button id="sldbtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div id="carousel" class="carousel-inner">
+        <div id="item1" class="carousel-item active">
+          <div class="disc">
+            <h1 class="disc-hdr">Best! I Got The House I Wanted Through Hounter</h1>
+            <p class="disc-text">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+            <div class="prsn">
+              <div class="dnn">
+                <img id="avt" src="img/32.png" alt="">
+                <div class="naame">
+                  <p id="nme1">Dianne Russell</p>
+                  <p id="nme2">Manager Director</p>
+                </div>
+              </div>
+              <div class="star">
+                <svg id="star" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.6048 8.70885C23.5315 8.49286 23.3965 8.30307 23.2166 8.16292C23.0366 8.02277 22.8196 7.93838 22.5922 7.92018L15.941 7.39168L13.0628 1.02052C12.9712 0.815315 12.8221 0.641025 12.6336 0.518684C12.445 0.396343 12.2251 0.331178 12.0004 0.331055C11.7756 0.330932 11.5557 0.395855 11.367 0.517989C11.1783 0.640123 11.0291 0.814249 10.9372 1.01935L8.05901 7.39168L1.40784 7.92018C1.18437 7.93789 0.970738 8.0196 0.792491 8.15554C0.614244 8.29148 0.478935 8.47589 0.402752 8.68672C0.326569 8.89754 0.312738 9.12586 0.362913 9.34434C0.413088 9.56282 0.525145 9.76222 0.685677 9.91868L5.60084 14.7102L3.86251 22.2375C3.80973 22.4654 3.82664 22.7038 3.91107 22.9219C3.99549 23.14 4.14352 23.3278 4.33595 23.4607C4.52837 23.5936 4.75632 23.6657 4.99019 23.6674C5.22407 23.6692 5.45308 23.6007 5.64751 23.4707L12 19.2357L18.3525 23.4707C18.5512 23.6026 18.7856 23.6706 19.0241 23.6653C19.2626 23.6601 19.4937 23.582 19.6865 23.4414C19.8792 23.3009 20.0243 23.1047 20.1022 22.8793C20.1802 22.6538 20.1872 22.4099 20.1223 22.1803L17.9885 14.7137L23.2805 9.95135C23.627 9.63868 23.7542 9.15102 23.6048 8.70885Z" fill="#F59E0B"/>
+                </svg>
+                <p>4.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item2" class="carousel-item">
+          <div class="disc">
+            <h1 class="disc-hdr">My House Sold Out Fast!</h1>
+            <p class="disc-text">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+            <div class="prsn">
+              <div class="dnn">
+                <img id="avt" src="img/37.png" alt="">
+                <div class="naame">
+                  <p id="nme1">Courtney Henry</p>
+                  <p id="nme2">CEO Andarafish</p>
+                </div>
+              </div>
+              <div class="star">
+                <svg id="star" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.6048 8.70885C23.5315 8.49286 23.3965 8.30307 23.2166 8.16292C23.0366 8.02277 22.8196 7.93838 22.5922 7.92018L15.941 7.39168L13.0628 1.02052C12.9712 0.815315 12.8221 0.641025 12.6336 0.518684C12.445 0.396343 12.2251 0.331178 12.0004 0.331055C11.7756 0.330932 11.5557 0.395855 11.367 0.517989C11.1783 0.640123 11.0291 0.814249 10.9372 1.01935L8.05901 7.39168L1.40784 7.92018C1.18437 7.93789 0.970738 8.0196 0.792491 8.15554C0.614244 8.29148 0.478935 8.47589 0.402752 8.68672C0.326569 8.89754 0.312738 9.12586 0.362913 9.34434C0.413088 9.56282 0.525145 9.76222 0.685677 9.91868L5.60084 14.7102L3.86251 22.2375C3.80973 22.4654 3.82664 22.7038 3.91107 22.9219C3.99549 23.14 4.14352 23.3278 4.33595 23.4607C4.52837 23.5936 4.75632 23.6657 4.99019 23.6674C5.22407 23.6692 5.45308 23.6007 5.64751 23.4707L12 19.2357L18.3525 23.4707C18.5512 23.6026 18.7856 23.6706 19.0241 23.6653C19.2626 23.6601 19.4937 23.582 19.6865 23.4414C19.8792 23.3009 20.0243 23.1047 20.1022 22.8793C20.1802 22.6538 20.1872 22.4099 20.1223 22.1803L17.9885 14.7137L23.2805 9.95135C23.627 9.63868 23.7542 9.15102 23.6048 8.70885Z" fill="#F59E0B"/>
+                </svg>
+                <p>4.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item3" class="carousel-item">
+          <div class="disc">
+            <h1 class="disc-hdr">Through The Hounter, I Can Get A House For My Self</h1>
+            <p class="disc-text">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
+            <div class="prsn">
+              <div class="dnn">
+                <img id="avt" src="img/38.png" alt="">
+                <div class="naame">
+                  <p id="nme1">Esther Howard</p>
+                  <p id="nme2">Head of Marketing</p>
+                </div>
+              </div>
+              <div class="star">
+                <svg id="star" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.6048 8.70885C23.5315 8.49286 23.3965 8.30307 23.2166 8.16292C23.0366 8.02277 22.8196 7.93838 22.5922 7.92018L15.941 7.39168L13.0628 1.02052C12.9712 0.815315 12.8221 0.641025 12.6336 0.518684C12.445 0.396343 12.2251 0.331178 12.0004 0.331055C11.7756 0.330932 11.5557 0.395855 11.367 0.517989C11.1783 0.640123 11.0291 0.814249 10.9372 1.01935L8.05901 7.39168L1.40784 7.92018C1.18437 7.93789 0.970738 8.0196 0.792491 8.15554C0.614244 8.29148 0.478935 8.47589 0.402752 8.68672C0.326569 8.89754 0.312738 9.12586 0.362913 9.34434C0.413088 9.56282 0.525145 9.76222 0.685677 9.91868L5.60084 14.7102L3.86251 22.2375C3.80973 22.4654 3.82664 22.7038 3.91107 22.9219C3.99549 23.14 4.14352 23.3278 4.33595 23.4607C4.52837 23.5936 4.75632 23.6657 4.99019 23.6674C5.22407 23.6692 5.45308 23.6007 5.64751 23.4707L12 19.2357L18.3525 23.4707C18.5512 23.6026 18.7856 23.6706 19.0241 23.6653C19.2626 23.6601 19.4937 23.582 19.6865 23.4414C19.8792 23.3009 20.0243 23.1047 20.1022 22.8793C20.1802 22.6538 20.1872 22.4099 20.1223 22.1803L17.9885 14.7137L23.2805 9.95135C23.627 9.63868 23.7542 9.15102 23.6048 8.70885Z" fill="#F59E0B"/>
+                </svg>
+                <p>4.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="pg6">
+    <div class="spg6">
+      <img src="img/26.png" alt="">
+      <p class="see">See Tips And Trick From Our Partnership</p>
+      <h1 class="find">Find Out More About Selling And Buying Homes</h1>
+      <div class="inf">
+        <div class="double">
+          <div class="pic">
+            <img class="main" src="img/39.png" alt="">
+            <div class="cnt">
+              <img id="men" src="img/32.png" alt="">
+              <span class="name">Dianne Russell</span>
+              <p class="abt">The Things We Need To Check When <br> We Want To Buy A House</p>
+              <img id="clc" src="img/41.png" alt="">
+              <span class="time">4 min read | 25 Apr 2021</span>
+            </div>
+          </div>
+          <div class="pic">
+            <img class="main" src="img/40.png" alt="">
+            <div class="cnt">
+              <img id="men" src="img/42.png" alt="">
+              <span class="name">Courtney Henry</span>
+              <p class="abt">7 Ways To Distinguish The Quality Of <br> The House We Want To Buy</p>
+              <img id="clc" src="img/41.png" alt="">
+              <span class="time">6 min read | 24 Apr 2021</span>
+            </div>
+          </div>
+        </div>
+        <div class="cameron">
+          <div id="cameron1">
+            <img id="men" src="img/44.png" alt="">
+            <span id="cameron">Cameron Williamson</span>
+            <h1>12 Things To Know Before Buying A House</h1>
+            <img id="clc" src="img/45.png" alt="">
+            <span>8 min read | 25 Apr 2021</span>
+          </div>
+        </div>
+      </div>
+      <div class="btm">
+        <div>
+          <img id="desk" src="img/47.png" alt="">
+          <p id="we">We provide information about properties such as houses, <br> villas and apartments to help people find their dream home</p>
+          <p id="sub">Subscribe to our newsletter!</p>
+          <form id="frm" action="">
+            <img id="i48" src="img/48.png" alt="">
+            <input id="put" type="text" placeholder="       Your email here">
+            <button id="tbn" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Get all the news first">Subsribe Now</button>
+          </form>
+          <div class="last">
+            <p id="terms">Terms & Conditions</p>
+            <p id="prv">Privacy Policy</p>
+          </div>
+        </div>
+        
+        <div class="links">
+          <div class="link1">
+            <p id="hdr">Property</p>
+            <p id="sbb">House</p>
+            <p id="sbb">Apartment</p>
+            <p id="sbb">Villa</p>
+          </div>
+          <div class="link1">
+            <p id="hdr">Article</p>
+            <p id="sbb">New Article</p>
+            <p id="sbb">Popular Article</p>
+            <p id="sbb">Most Read</p>
+            <p id="sbb">Tips & Tricks</p>
+          </div>
+          <div class="link2">
+            <p id="hdr">Contact</p>
+            <p id="sbb">Medan, South Sumatera</p>
+            <p id="sbb">(62) 81312120001</p>
+            <p id="sbb">halo@homedesk.com</p>
+            <img id="scl" src="img/49.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
